@@ -113,3 +113,40 @@ h3 {
     text-align: center;
     border-color: #999da1;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    div.calculadora {
+        width: 100%;
+        max-width: 360px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #row {
+        flex-wrap: wrap;
+    }
+
+    #n1,
+    #n2,
+    #resultado {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
