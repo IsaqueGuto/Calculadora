@@ -149,4 +149,11 @@ h3 {
         width: 100%;
         box-sizing: border-box;
     }
+
+    #resultado {
+        min-height: 44px;
+        padding: 10px 12px;
+        line-height: 1.4;
+        flex-direction: column;
+    }
 }
