@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+    
+    <h1>Calculadora JavaScript</h1>
+    <h3>Insira dois números:</h3>
+    <div id="row2">
+    <input type="number" name="n1" id="n1" min="0">
+    <input type="number" name="n2" id="n2" min="0">
+    </div>
+    <br><br>
+
+    <div id="row">
+    <input type="button" value="+" class="botao" onclick="soma()">
+
+    <input type="button" value="-" class="botao" onclick="subtracao()">
+
+    <input type="button" value="×" class="botao" onclick="multiplicar()">
+
+    <input type="button" value="÷" class="botao" onclick="dividir()">
+</div>
+
+<br><br>
+    <!-- Resultado -->
+     <div id="resultado"></div>
+     <br>
+     <input  type="button" value="Limpar" id="limpar" onclick="limpar()">
+     <br>
+</div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
